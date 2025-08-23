@@ -1,7 +1,7 @@
 
 
 # Name: Tipu Sultan #
-# This is a fun project to analyse the pokemon. #
+# This is a fun project to analyse the Pokemons. #
 ################################################
 
 #### Set directory and load dataset ####
