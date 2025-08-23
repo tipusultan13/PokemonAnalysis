@@ -18,4 +18,4 @@ View(Pokemon)
 ###################################
 
 colnames(Pokemon)
-head(Pokemon,2)
+
