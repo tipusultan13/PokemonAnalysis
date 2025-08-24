@@ -14,8 +14,86 @@ Pokemon = read.csv("pokemon.csv", header = TRUE)
 View(Pokemon)
 
 
-#### Play around with the data ####
+#### Legendary pokemons ####
 ###################################
 
-colnames(Pokemon)
+
+# Number of Legendary Pokemon
+
+c = 0
+
+for (i in Pokemon$is_legendary){
+  if (i == 1){
+    c = c + 1
+  }
+}
+
+print(c) # 70 Pokemons is Legendary in the list
+
+# List of Legendary Pokemons
+
+LegandaryList = c()
+
+for ( i in seq_along(Pokemon$name)){
+  
+    name = Pokemon$name[i]
+    
+    if (Pokemon$is_legendary[i] == 1){
+      
+      LegandaryList = append(LegandaryList, name)
+      
+    }
+}
+
+# LegendaryList <- Pokemon$name[Pokemon$is_legendary == 1]
+
+print(LegandaryList)
+
+# List of Legendary Pokemons and their types
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
