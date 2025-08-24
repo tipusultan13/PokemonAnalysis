@@ -28,7 +28,7 @@ for (i in Pokemon$is_legendary){
   }
 }
 
-print(c) # 70 Pokemons is Legendary in the list
+print(c) # 70 Pokemons are Legendary in the list
 
 # List of Legendary Pokemons
 
