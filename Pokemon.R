@@ -11,12 +11,12 @@ setwd("/Users/tipusultan/Documents/GitHub/PokemonAnalysis")
 
 Pokemon = read.csv("pokemon.csv", header = TRUE)
 #Pokemon = read.csv(file.choose())
+
 View(Pokemon)
 
 
 #### Legendary pokemons ####
 ###################################
-
 
 # Number of Legendary Pokemon
 
